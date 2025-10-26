@@ -1,0 +1,9 @@
+Какой тег можно вложить в другой тег ? https://caninclude.onrender.com
+
+документация https://developer.mozilla.org/en-US
+
+спец. символы в html https://advermedia.ua/blog/spetssimvoly-html
+
+керівництво згідно написання коду: https://codeguide.co
+
+валідація https://validator.w3.org
