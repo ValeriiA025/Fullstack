@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Сучасна пекарня</title>
   </head>
+  <link rel="stylesheet" href="./styles.css" />
   <body>
     <header>
       <nav>
@@ -13,25 +14,27 @@
         /></a>
 
         <ul>
-          <li><a href="#traditions-section">Наші традиції</a></li>
-          <li><a href="#chefs-section">Шеф-кухарі</a></li>
-          <li><a href="#formats-section">Формати</a></li>
-          <li><a href="#contact-section">Контакти</a></li>
+          <li><a class="link" href="#traditions-section">Наші традиції</a></li>
+          <li><a class="link" href="#chefs-section">Шеф-кухарі</a></li>
+          <li><a class="link" href="#formats-section">Формати</a></li>
+          <li><a class="link" href="#contact-section">Контакти</a></li>
         </ul>
       </nav>
-      <button type="button">Замовити дзвінок</button>
+      <button type="button" class="button">Замовити дзвінок</button>
       <!--замовити дзвінок-->
     </header>
 
     <main>
-      <section><h1>Сучасна пекарня</h1></section>
+      <section>
+        <h1 class="hero-title"><span class="acsent">Сучасна</span> пекарня</h1>
+      </section>
       <section id="traditions-section">
-        <ul>
+        <ul class="advantages-list">
           <li>Великий попит на ринку</li>
           <li>Доступні за бюджетом формати</li>
           <li>Досвідчена управлінська команда</li>
         </ul>
-        <h2>Новий формат традицій</h2>
+        <h2 class="section-title">Новий формат традицій</h2>
         <p>
           <span>shop bakery</span> — це пекарня, яка взяла все найкраще, і
           зберегла смак традиційної випічки та натуральність інгредієнтів.
@@ -47,7 +50,9 @@
         />
       </section>
       <section id="chefs-section">
-        <h2>Наші найкращі шеф-кухарі</h2>
+        <h2 class="section-title">
+          Наші найкращі <span class="acsent">шеф-кухарі</span>
+        </h2>
         <ul>
           <li>
             <article>
@@ -71,7 +76,7 @@
         </ul>
       </section>
       <section id="formats-section">
-        <h2>Формати</h2>
+        <h2 class="section-title">Формати</h2>
         <ul>
           <li>
             <article><h3 lang="en">Walrus</h3></article>
@@ -85,7 +90,7 @@
         </ul>
       </section>
       <section id="contact-section">
-        <h2>Приєднуйтесь до мережі пекарнь</h2>
+        <h2 class="section-title">Приєднуйтесь до мережі пекарнь</h2>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.16363043528!2d30.48869837640411!3d50.45667757159335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637c006b2d%3A0xaf86385f19996ff0!2z0YPQuy4g0KHQtdGH0LXQstGL0YUg0KHRgtGA0LXQu9GM0YbQvtCyLCA1NCwg0JrQuNC10LIsINCj0LrRgNCw0LjQvdCwLCAwMjAwMA!5e0!3m2!1sru!2sfi!4v1761493044121!5m2!1sru!2sfi"
           width="603"
